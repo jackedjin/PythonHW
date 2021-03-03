@@ -19,8 +19,8 @@ def calculate_apr(principal,interest_rate,years):
 #	principal=500
 #	interest_rate=0.03
 #	years=0
-
-	for x in range(years):
+	x=0
+	while x<years:
 		principal=principal*(1+interest_rate/100)
 #		print(f'After year {years}, the new principal is {principal}')
 		x+=1
