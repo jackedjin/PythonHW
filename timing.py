@@ -1,6 +1,6 @@
 import time
-def calculate_time():
-	def wrapper_calculate_time(func):
+def calculate_time(func):
+	def wrapper_calculate_time():
 		start = time.time()
 		func()
 		time.sleep(2)
