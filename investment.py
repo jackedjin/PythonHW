@@ -4,12 +4,14 @@ def calculate_apr(principal,interest_rate,years):
 #	print(principal)
 #	interest_rate=input("Enter interest rate:")
 #	interest_rate=int(interest_rate)
-	principal=500.00
+	principal=500
 	interest_rate=0.03
-	years=65.00
+	years=65
 	if interest_rate<0:
 		print("False")
 		exit()
+	print(f'The new principal after 1 year is {principal*(1+interest_rate)}')
+
 #	else:
 #		print(interest_rate)
 #	years=input("Enter number of years:")
