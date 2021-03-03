@@ -1,9 +1,4 @@
 def calculate_apr(principal,interest_rate,years):
-"""
-this function holds 3 parameters/arguments,
-checks if the interest_rate is a negative value,
-and repeatedly calculates the new compounded principal each year
-"""
 #	principal=input("Enter principal:")
 #	principal=int(principal)
 #	print(principal)
