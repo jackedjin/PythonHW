@@ -19,4 +19,3 @@ def calculate_apr():
 		x+=1
 
 	print(f'On the {x}th year, the principal has become {principal}')
-calculate_apr()
