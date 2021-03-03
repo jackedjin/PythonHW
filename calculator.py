@@ -31,5 +31,3 @@ def input_output():
 		dec=input("Enter 'y' to continue or 'n' to exit:")
 		if dec == 'n':
 			break
-
-input_output()
