@@ -26,5 +26,6 @@ def calculate_apr(principal,interest_rate,years):
 #		print(f'After year {years}, the new principal is {principal}')
 			years+=1
 
+	float("{:.7f}".format(principal))
 	return principal
 #	print(f'On the {years}th year, the principal has become {principal}')
