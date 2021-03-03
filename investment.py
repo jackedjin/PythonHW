@@ -6,6 +6,7 @@ def calculate_apr(principal,interest_rate,years):
 #	interest_rate=int(interest_rate)
 	principal=500
 	interest_rate=0.03
+	x=0
 	years=65
 	if interest_rate<0.00:
 		print("False")
