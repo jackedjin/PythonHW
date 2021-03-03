@@ -6,4 +6,4 @@ def calculate_time(func):
 		time.sleep(2)
 		stop = time.time()
 		print(f'Total time taken is {stop-start} seconds')
-		return wrapper_calculate_time
+	return wrapper_calculate_time
