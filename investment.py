@@ -8,17 +8,20 @@ def calculate_apr(principal,interest_rate,years):
 	"""
 	principal=input("Enter principal:")
 	principal=int(principal)
+	print(principal)
 	interest_rate=input("Enter interest rate:")
 	interest_rate=int(interest_rate)
+	print(interest_rate)
 	years=input("Enter years:")
 	years=int(years)
+	print(years)
 
 #	principal=500
 #	interest_rate=0.03
 #	years=0
 
 	for x in range(years):
-		principal=principal*(1+interest_rate)
+		principal=principal*(1+interest_rate/100)
 #		print(f'After year {years}, the new principal is {principal}')
 		x+=1
 		new_principal = float("{:.7f}".format(principal))
