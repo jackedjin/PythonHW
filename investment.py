@@ -1,4 +1,4 @@
-def calculate_apr():
+def calculate_apr(principal,interest_rate,years):
 	principal=input("Enter principal:")
 	principal=int(principal)
 	print(principal)
