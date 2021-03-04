@@ -6,20 +6,9 @@ def calculate_apr(principal,interest_rate,years):
 	and it checks whether the interest rate is a negative value with an if-statement.
 	Then, it calculates the principal after each year based on a compound interest.
 	"""
-
-	principal=input("Enter principal:")
-	principal=int(principal)
-	print(principal)
-	interest_rate=input("Enter interest rate:")
-	interest_rate=int(interest_rate)
-	print(interest_rate)
-	years=input("Enter years:")
-	years=int(years)
-	print(years)
-
-#	principal=500
-#	interest_rate=0.03
-#	years=0
+	principal=500
+	interest_rate=0.03
+	years=65
 	x=0
 	while x<years:
 		principal=principal*(1+interest_rate/100)
