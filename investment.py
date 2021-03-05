@@ -9,6 +9,7 @@ def calculate_apr(principal,interest_rate,years):
 	principal=100
 	interest_rate=0.06
 	years=65
+	oneyear=0
 
 	one_year=principal*(1+interest_rate)
 	if interest_rate<0:
