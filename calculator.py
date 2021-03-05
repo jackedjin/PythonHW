@@ -1,5 +1,8 @@
 def calculator(number1,number2,operator):
-	if operator=='+':
+	"""
+	This function accepts 3 parameters - number1, number2 and operator, and it checks for the type of operator, and returns the respective result from the arithmetic operation
+	"""
+	if operator=='+': 
 		return number1+number2
 	elif operator=='-':
 		return number1-number2
@@ -11,13 +14,18 @@ def calculator(number1,number2,operator):
 		return number1**number2
 	elif operator=='//':
 		return number1//number2
-	else:
+	else: #if its any other character or string, exit immediately
 		exit()
 
 def input_output():
+	"""
+	This function runs on a while loop and prompts user to enter the following parameters - number1, number2 and operator. Upon receiving the parameters, the function calls the calculator function from above,
+	passes the parameters into the calculator function which checks the operator and returns the result which is then printed. This is followed by prompting the user if they wish to continue.
+	If 'y' is entered, the user can continue with the mathemetical operation, however, if it is a 'n', it breaks the loop and exits.
+	"""
 	dec = 'y'
 	oper = ''
-	while dec == 'y':
+	while dec == 'y': #loops until 'n' is entered by user
 		num1=input("Enter number1:")
 		num1=int(num1)
 		print(num1)
@@ -30,4 +38,4 @@ def input_output():
 		print(result)
 		dec=input("Enter 'y' to continue or 'n' to exit:")
 		if dec == 'n':
-			break
+			break #breaks the loop
