@@ -1,7 +1,7 @@
 import time
-	"""
-	imports current time
-	"""
+"""
+imports current time
+"""
 
 def calculate_time(func):
 	"""
