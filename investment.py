@@ -9,7 +9,7 @@ def calculate_apr(principal,interest_rate,years):
 
 	if principal<0 or interest_rate<0 or years<0:
 #or principal<0 or years<0:
-		return false
+		print(false)
 		exit()
 
 	else:
