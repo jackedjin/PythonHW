@@ -7,10 +7,10 @@ def calculate_apr(principal,interest_rate,years):
 	Then, it calculates the principal after each year based on a compound interest.
 	"""
 
-	if principal<0 or interest_rate<0 or years<0:
+	if principal<0 or interest_rate<=0 or years<0:
 #or principal<0 or years<0:
-		print(false)
 		exit()
+	return false
 
 	else:
 #		principal=principal*(1+interest_rate)
